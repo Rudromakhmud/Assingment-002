@@ -18,9 +18,31 @@
 .sky-blue{
     color: #01ACFD;
 }
+.purple{
+    color: #8700FF;
+}
 /* header styles */
 .brand-name-title{
     align-items: center;
+}
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.bg-card-1{
+    background: linear-gradient(rgba(222, 245, 255, 1),rgba(255, 255, 255, 1));
+}
+.bg-card-2{
+    background: linear-gradient(rgba(255, 244, 220, 1),rgba(255, 255, 255, 1));
+}
+.bg-card-3{
+    background: linear-gradient(rgba(242, 232, 255, 1),rgba(255, 255, 255, 1));
+}
+.text{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #000000;
+    margin: 20px;
 }
 /* .border{
     border: 0.5px;
@@ -105,6 +127,103 @@
     font-weight: bold;
     font-size: 1.2em;
 }
+/* contaner boxs */
+.contaner{
+    background-image: url("/images/bg.png");
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-position: center;
+    max-width: 1440px;
+}
+.contaner-header{
+    font-size: 2.875rem;
+    font-weight: bold;
+    justify-content: center;
+}
+.contaner-box{
+    margin: 0 140px;
+    gap: 29px;
+}
+.contaner-box-bar{
+    width: 367.8px;
+    height: 476.78px;
+    border-radius: 18.86px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 50px auto;
+}
+.contaner-box-bar-img{
+    width: 130.7px;
+    margin-top: 50px;
+}
+.contaner-box-h3{
+    font-weight: bold;
+    font-size: 1.5325rem;
+    color: #202020;
+}
+.contaner-box-p{
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #808080;
+}
+.contaner-box-btn{
+    width: 102.92px;
+    height: 28.3px;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* our stories styles */
+.our-story{
+    background: linear-gradient(rgba(255, 255, 255, 1),rgba(254, 163, 1, 1));
+    background-size: cover;
+    background-position: center;
+    /* max-width: 1440px; */
+}
+.our-story-card{
+    margin-left: 140px;
+}
+.our-story-card1{
+    max-width: 540.2px;
+    height: 630.52px;
+    background-color: #ffffff;
+    border-radius: 16px;
+}
+.our-story-card1-img{
+    width: 100%;
+    border-radius:  16px 16px 0px 0px;
+}
+.our-story-h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #000000;
+    margin: 50px 60px ;
+    text-align: left;
+}
+.our-story-p{
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #666666;
+    margin: 50px 60px ;
+    text-align: left;
+}
+.card{
+    width: 290.69px;
+    height: 301.61px;
+    border-radius: 16px;
+    background-color: #ffffff;
+}
+.card-img{
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+}
+.our-story-card2{
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 300px 0px;
+    gap: 20px;
+}
+
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .navbar, .nav-link, .banner {
