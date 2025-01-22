@@ -44,6 +44,9 @@ main{
     color: #000000;
     margin: 20px;
 }
+.text1{
+    color: #ffffff;
+}
 /* .border{
     border: 0.5px;
     border-style: inset;
@@ -178,10 +181,10 @@ main{
     background: linear-gradient(rgba(255, 255, 255, 1),rgba(254, 163, 1, 1));
     background-size: cover;
     background-position: center;
-    /* max-width: 1440px; */
+    max-width: 1440px;
 }
 .our-story-card{
-    margin-left: 140px;
+    padding-left: 140px;
 }
 .our-story-card1{
     max-width: 540.2px;
@@ -223,10 +226,84 @@ main{
     grid-template-columns: 300px 0px;
     gap: 20px;
 }
-
+/* footer */
+.bg-footer{
+    background-color: #01ACFD;
+    background-size: cover;
+    max-width: 1440px ;
+}
+.logo-footer{
+    width: 82.9px;
+    height: 81px;
+}
+.footer-header{
+    font-size: 2.625rem;
+    font-weight: bold;
+    width: 206.11px;
+    height: 80px;
+}
+.footer-p{
+    font-size: 1.2rem;
+    width: 400px;
+    height: 100px;
+    margin-top: 35px;
+}
+.footer-header1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.text-footer-li{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+.footer-header2{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.footer-media-logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+}
+.footer-box{
+    justify-content: space-around;
+    align-items: center;
+    padding: 140px;
+}
+.logo-header{
+    align-items: center;
+}
+.footer-list{
+    list-style-type: none;
+}
+.button-view{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.view-all{
+    width: 197px;
+    height: 50px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 100px 50%;
+    border: none;
+}
 /* responsive media query */
 @media screen and (max-width: 576px) {
-    .navbar, .nav-link, .banner {
+    .navbar, .nav-link, .banner , .our-story , .contaner ,.footer-box{
         flex-direction: column;
+    }
+    .contaner-box{
+        margin: 0 auto;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(1 ,1f);
     }
 }
